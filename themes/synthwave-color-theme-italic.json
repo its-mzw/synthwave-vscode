@@ -296,7 +296,7 @@
       "scope": ["entity.name.function", "variable.function"],
       "settings": {
         "foreground": "#36f9f6",
-        "fontStyle": "italic",
+        "fontStyle": "italic"
       }
     },
     {
@@ -439,7 +439,7 @@
       "settings": {
         "foreground": "#2ee2fa",
         "fontStyle": "italic"
-      },
+      }
     },
     {
       "name": "Color",
@@ -488,7 +488,7 @@
     },
     {
       "name": "Markup text",
-      "scope": ["text.html", "keyword.operator.assignment", ],
+      "scope": ["text.html", "keyword.operator.assignment"],
       "settings": {
         "foreground": "#ffffffee"
       }
@@ -672,7 +672,7 @@
     {
       "name": "Clojure Globals",
       "scope": [
-        "entity.global.clojure",
+        "entity.global.clojure"
       ],
       "settings": {
         "foreground": "#36f9f6",
@@ -746,7 +746,7 @@
         "source.go keyword.control.go"
       ],
       "settings": {
-        "foreground": "#fede5d",
+        "foreground": "#fede5d"
       }
     },
     {
@@ -754,10 +754,10 @@
       "scope": [
         "source.go storage.type",
         "source.go keyword.struct.go",
-        "source.go keyword.interface.go",
+        "source.go keyword.interface.go"
       ],
       "settings": {
-        "foreground": "#72f1b8",
+        "foreground": "#72f1b8"
       }
     },
     {
@@ -795,7 +795,7 @@
       "name": "Markdown headings",
       "scope": [
         "markup.heading.markdown",
-        "entity.name.section.markdown",
+        "entity.name.section.markdown"
       ],
       "settings": {
         "foreground": "#ff7edb",
@@ -805,7 +805,7 @@
     {
       "name": "Markdown italic",
       "scope": [
-        "markup.italic.markdown",
+        "markup.italic.markdown"
       ],
       "settings": {
         "foreground": "#2EE2FA",
@@ -815,7 +815,7 @@
     {
       "name": "Markdown bold",
       "scope": [
-        "markup.bold.markdown",
+        "markup.bold.markdown"
       ],
       "settings": {
         "foreground": "#2EE2FA",
@@ -826,7 +826,7 @@
       "name": "Markdown quotes",
       "scope": [
         "punctuation.definition.quote.begin.markdown",
-        "markup.quote.markdown",
+        "markup.quote.markdown"
       ],
       "settings": {
         "foreground": "#72f1b8",
@@ -843,47 +843,47 @@
     {
       "name": "Dart strings",
       "scope": [
-        "string.interpolated.single.dart",
+        "string.interpolated.single.dart"
       ],
       "settings": {
-        "foreground": "#f97e72",
+        "foreground": "#f97e72"
       }
     },
     {
       "name": "Dart variable params",
       "scope": [
-        "variable.parameter.dart",
+        "variable.parameter.dart"
       ],
       "settings": {
-        "foreground": "#72f1b8",
+        "foreground": "#72f1b8"
       }
     },
     {
       "name": "Dart numerics",
       "scope": [
-        "constant.numeric.dart",
+        "constant.numeric.dart"
       ],
       "settings": {
-        "foreground": "#2EE2FA",
+        "foreground": "#2EE2FA"
       }
     },
     {
       "name": "Scala variable params",
       "scope": [
-        "variable.parameter.scala",
+        "variable.parameter.scala"
       ],
       "settings": {
-        "foreground": "#2EE2FA",
+        "foreground": "#2EE2FA"
       }
     },
     {
       "name": "Scala",
       "scope": [
-        "meta.template.expression.scala",
+        "meta.template.expression.scala"
       ],
       "settings": {
-        "foreground": "#72f1b8",
+        "foreground": "#72f1b8"
       }
-    },
+    }
   ]
 }
