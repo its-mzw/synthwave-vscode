@@ -178,7 +178,8 @@
       "name": "Variable",
       "scope": ["variable", "entity.name.variable"],
       "settings": {
-        "foreground": "#ff7edb"
+        "foreground": "#ff7edb",
+        "fontStyle": "italic"
       }
     },
     {
@@ -186,7 +187,7 @@
       "scope": "variable.language",
       "settings": {
         "foreground": "#fe4450",
-        "fontStyle": "bold"
+        "fontStyle": "italic"
       }
     },
     {
@@ -200,7 +201,8 @@
       "name": "Storage (declaration or modifier keyword)",
       "scope": ["storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -263,7 +265,8 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -292,7 +295,8 @@
       "name": "Function",
       "scope": ["entity.name.function", "variable.function"],
       "settings": {
-        "foreground": "#36f9f6"
+        "foreground": "#36f9f6",
+        "fontStyle": "italic",
       }
     },
     {
@@ -313,21 +317,24 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Control keyword",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Operator",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -338,7 +345,8 @@
         "keyword.operator.logical"
       ],
       "settings": {
-        "foreground": "#fede5d"
+        "foreground": "#fede5d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -367,6 +375,14 @@
       "scope": "support.variable",
       "settings": {
         "foreground": "#ff7edb"
+      }
+    },
+    {
+      "name": "Support variable Property",
+      "scope": "support.variable.property",
+      "settings": {
+        "foreground": "#ff7edb",
+        "fontStyle": "italic"
       }
     },
     {
@@ -421,7 +437,8 @@
       "name": "JS object path",
       "scope": "variable.other.constant.property.js, variable.other.property.js",
       "settings": {
-        "foreground": "#2ee2fa"
+        "foreground": "#2ee2fa",
+        "fontStyle": "italic"
       },
     },
     {
@@ -813,6 +830,7 @@
       ],
       "settings": {
         "foreground": "#72f1b8",
+        "fontStyle": "italic"
       }
     },
     {
